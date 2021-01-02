@@ -1,6 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { Global, css } from "@emotion/react"
+import Header from "./Header"
 const Layout = ({ children }) => {
   return (
     <>
@@ -71,7 +72,7 @@ const Layout = ({ children }) => {
           }
         `}
       />
-      <h1>Mi sitio en gatsby</h1>
+      <Header />
       {children}
     </>
   )
