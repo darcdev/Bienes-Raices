@@ -5,7 +5,7 @@ import styled from "@emotion/styled"
 const Nav = styled.nav`
   display: flex;
   flex-direction: column;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
 
   @media (min-width: 768px) {
     flex-direction: row;
@@ -23,6 +23,7 @@ const NavLink = styled(Link)`
     margin-right: 0;
   }
   &.pagina-actual {
+    padding-bottom: 0.5rem;
     border-bottom: 2px solid #fff;
   }
 `

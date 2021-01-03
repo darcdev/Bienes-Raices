@@ -37,7 +37,6 @@ const Layout = ({ children }) => {
 
           body {
             font-size: 1.6rem;
-            line-height: 2;
             font-family: "Lato", sans-serif;
           }
           h1,
