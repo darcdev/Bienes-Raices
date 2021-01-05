@@ -5,6 +5,8 @@ import { css } from "@emotion/react"
 import styled from "@emotion/styled"
 import BackgroundImage from "gatsby-background-image"
 import heroCss from "../css/hero.module.css"
+import Encuentra from "../components/Encuentra"
+import ListadoPropiedades from "../components/ListadoPropiedades"
 
 const BackImage = styled(BackgroundImage)`
   height: 600px;
@@ -33,13 +35,18 @@ const Index = () => {
           <h1>{nombre}</h1>
           <p
             css={css`
-              text-align: center;
+              margin: 0 auto;
+              line-height: 2;
+              text-align: justify;
+              margin-bottom: 2rem;
             `}
           >
             {contenido}
           </p>
         </div>
       </main>
+      <Encuentra />
+      <ListadoPropiedades />
     </Layout>
   )
 }
