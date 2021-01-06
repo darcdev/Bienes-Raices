@@ -2,7 +2,7 @@ import { graphql, useStaticQuery } from "gatsby"
 
 const usePropiedades = () => {
   const datos = useStaticQuery(graphql`
-    {
+    query {
       allStrapiPropiedades {
         nodes {
           nombre

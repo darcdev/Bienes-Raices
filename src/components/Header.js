@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
 import Navegacion from "./Navegacion"
 import { css } from "@emotion/react"
 import styled from "@emotion/styled"
@@ -14,15 +14,7 @@ const LogoLink = styled(Link)`
     font-weight: bold;
   }
 `
-
 const Header = () => {
-  const { logo } = useStaticQuery(graphql`
-    query MyQuery {
-      logo: file(relativePath: { eq: "header.jpg" }) {
-        publicURL
-      }
-    }
-  `)
   return (
     <header
       css={css`

@@ -34,13 +34,13 @@ const Iconos = ({ wc, estacionamiento, habitaciones }) => {
     <ListadoIconos>
       <li>
         {" "}
-        <img src={imagenesIconos[3].node.publicURL} alt="icono wc" />{" "}
+        <img src={imagenesIconos[5].node.publicURL} alt="icono wc" />{" "}
         <p>{wc}</p>
       </li>
       <li>
         {" "}
         <img
-          src={imagenesIconos[2].node.publicURL}
+          src={imagenesIconos[4].node.publicURL}
           alt="icono estacionamiento"
         />{" "}
         <p>{estacionamiento}</p>
@@ -48,7 +48,7 @@ const Iconos = ({ wc, estacionamiento, habitaciones }) => {
       <li>
         {" "}
         <img
-          src={imagenesIconos[1].node.publicURL}
+          src={imagenesIconos[3].node.publicURL}
           alt="icono habitaciones"
         />{" "}
         <p>{habitaciones}</p>
